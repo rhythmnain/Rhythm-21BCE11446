@@ -1,5 +1,5 @@
 const{start_state, charc_type} = require('./constants');
-const utils = require('./utils');
+const utils = require('./share');
 let stateGame = { ...start_state};
 //for starting and initializing the game
 function startingGame(){
